@@ -1,0 +1,32 @@
+--- fsplit.c.org	2004-10-10 19:57:00.397209665 +0200
++++ fsplit.c	2004-10-10 19:58:03.708646674 +0200
+@@ -49,18 +49,17 @@
+ unsigned int max_suffix=999;
+ 
+ char	c, *of_ptr;
+-char helpmsg[] = { "Usage: fsplit -s N [-i infile] [-o outfile]
+-
+-Splits input into chunks of N bytes.
+-
+-The chunks are created with suffixes of 000, 001, 002 etc, up to a max of 999.
+-
+-If no input file name is specified, fsplit reads from stdin.
+-
+-If no output file name is specified, fsplit uses the input file name as the
+-output file name base where an input was specified, otherwise it just uses
+-\"xx\" as a base (ie: \"xx.000\", \"xx.001\" etc).
+-"};
++char helpmsg[] = { "Usage: fsplit -s N [-i infile] [-o outfile]\n"
++"\n"
++"Splits input into chunks of N bytes.\n"
++"\n"
++"The chunks are created with suffixes of 000, 001, 002 etc, up to a max of 999.\n"
++"\n"
++"If no input file name is specified, fsplit reads from stdin.\n"
++"\n"
++"If no output file name is specified, fsplit uses the input file name as the\n"
++"output file name base where an input was specified, otherwise it just uses\n"
++"\"xx\" as a base (ie: \"xx.000\", \"xx.001\" etc).\n"};
+ 
+ main(int argc, char *argv[])
+ {
