@@ -7,7 +7,6 @@ License:	GPL
 Group:		Networking/Utilities
 Source0:	http://www.bluehaze.com.au/unix/%{name}_%{version}.tar.gz
 # Source0-md5:	6e7faf41f40d1e5c205ce5082b89e0a9
-# Source0-size:	16509
 Patch0:		%{name}-build.patch
 URL:		http://www.bluehaze.com.au/unix/cdbkup.html
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
