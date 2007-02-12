@@ -1,5 +1,5 @@
 Summary:	A backup strategy for Linux via CD-R
-Summary(pl):	Strategia kopii zapasowych na CD-R dla Linuksa
+Summary(pl.UTF-8):   Strategia kopii zapasowych na CD-R dla Linuksa
 Name:		backup
 Version:	4.0
 Release:	1
@@ -28,23 +28,23 @@ appending 000, 001 etc onto a date-derived file name base. The script
 also provides for full or partial recovery from the CD set, plus the
 listing of archive contents in long or short format.
 
-%description -l pl
-Dla serwera linuksowego nie maj±cego napêdu ta¶mowego o odpowiednio
-du¿ym rozmiarze, ale z dostêpem do nagrywarki CD lub DVD (w³asnej lub
-pod³±czonej do innej maszyny w sieci) i spor± liczb± wolnego miejsca
-na dysku na du¿e pliki tymczasowe, u¿yteczn± i wygodn± alternatyw±
-jest u¿ywanie wielu p³yt CD.
+%description -l pl.UTF-8
+Dla serwera linuksowego nie majÄ…cego napÄ™du taÅ›mowego o odpowiednio
+duÅ¼ym rozmiarze, ale z dostÄ™pem do nagrywarki CD lub DVD (wÅ‚asnej lub
+podÅ‚Ä…czonej do innej maszyny w sieci) i sporÄ… liczbÄ… wolnego miejsca
+na dysku na duÅ¼e pliki tymczasowe, uÅ¼ytecznÄ… i wygodnÄ… alternatywÄ…
+jest uÅ¼ywanie wielu pÅ‚yt CD.
 
-backup to skrypt u¿ywaj±cy standardowych narzêdzi uniksowych takich
-jak find, sed, cpio oraz ma³ego narzêdzia do dzielenia plików o nazwie
-fsplit do tworzenia serii fragmentów archiwum cpio o ³±cznym rozmiarze
-oko³o 3500MB, zawieraj±cego wszystkie interesuj±ce pliki z systemu.
-Rozmiar fragmentu jest aktualnie ustawiony na oko³o 640MB (co mo¿na
-zmieniæ w skrypcie), aby zmie¶ci³ siê na p³ycie CD. Kawa³ki s±
-automatycznie nazywane przez backup poprzez do³±czanie 000, 001 itd.
-do podstawy nazwy pliku pochodz±cej od daty. Skrypt pozwala tak¿e na
-czê¶ciowe lub pe³ne odtworzenie danych ze zbioru p³yt CD oraz
-listowanie zawarto¶ci archiwum w krótkim lub d³ugim formacie.
+backup to skrypt uÅ¼ywajÄ…cy standardowych narzÄ™dzi uniksowych takich
+jak find, sed, cpio oraz maÅ‚ego narzÄ™dzia do dzielenia plikÃ³w o nazwie
+fsplit do tworzenia serii fragmentÃ³w archiwum cpio o Å‚Ä…cznym rozmiarze
+okoÅ‚o 3500MB, zawierajÄ…cego wszystkie interesujÄ…ce pliki z systemu.
+Rozmiar fragmentu jest aktualnie ustawiony na okoÅ‚o 640MB (co moÅ¼na
+zmieniÄ‡ w skrypcie), aby zmieÅ›ciÅ‚ siÄ™ na pÅ‚ycie CD. KawaÅ‚ki sÄ…
+automatycznie nazywane przez backup poprzez doÅ‚Ä…czanie 000, 001 itd.
+do podstawy nazwy pliku pochodzÄ…cej od daty. Skrypt pozwala takÅ¼e na
+czÄ™Å›ciowe lub peÅ‚ne odtworzenie danych ze zbioru pÅ‚yt CD oraz
+listowanie zawartoÅ›ci archiwum w krÃ³tkim lub dÅ‚ugim formacie.
 
 %prep
 %setup -q -c
