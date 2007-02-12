@@ -1,5 +1,5 @@
 Summary:	A backup strategy for Linux via CD-R
-Summary(pl.UTF-8):   Strategia kopii zapasowych na CD-R dla Linuksa
+Summary(pl.UTF-8):	Strategia kopii zapasowych na CD-R dla Linuksa
 Name:		backup
 Version:	4.0
 Release:	1
