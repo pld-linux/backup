@@ -18,7 +18,7 @@ another networked machine), and plenty of spare disc for some large
 temporary files, a useful and convenient alternative is to use
 multiple CDs instead.
 
-backup is a script which makes use of standard unix utilities such as
+backup is a script which makes use of standard Unix utilities such as
 find, sed, and cpio, plus a small file-splitter called fsplit to
 create a series of cpio archive fragments totalling about 3500MB that
 contain all the files of interest on my system. The fragment size is
